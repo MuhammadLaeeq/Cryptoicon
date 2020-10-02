@@ -1,0 +1,26 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #eee;
+}
+form{
+    margin:40px auto;
+}
+form input{
+    width:400px !important;
+    height:65px !important;
+}
+hr{
+    width:320px;
+    border-bottom:1px solid rgba(0, 0, 0, 0.014);
+}
+
+.link h4{
+font-size:22px;
+text-align: center;
+color:rgb(38, 199, 132);
+
+}

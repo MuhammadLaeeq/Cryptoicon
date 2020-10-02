@@ -1,0 +1,156 @@
+
+@media screen and (max-width:320px){
+    .banner{
+        display: none;
+    }
+    .banner2{
+        display: none;
+    }
+    form{
+        margin-bottom:80px;
+    }
+    form input{
+        width:330px !important;
+        height:65px !important;
+    }
+    .logform{
+        margin-top:90px;
+    }
+    .logbtn{
+        width:330px;
+    }
+    .regbtn{
+        width:330px;
+    }
+}
+
+@media screen and (max-width:360px){
+    .banner{
+        display: none;
+    }
+    .banner2{
+        display: none;
+    }
+    form{
+        margin-bottom:80px;
+    }
+    form input{
+        width:330px !important;
+        height:65px !important;
+    }
+    .logform{
+        margin-top:90px;
+    }
+    .logbtn{
+        width:330px;
+    }
+    .regbtn{
+        width:330px;
+    }
+    
+}
+
+
+@media screen and (max-width:411px){
+    .banner{
+        display: none;
+    }
+    .banner2{
+        display: none;
+    }
+    form{
+        margin-bottom:80px;
+    }
+    form input{
+        width:330px !important;
+        height:65px !important;
+    }
+    .logform{
+        margin-top:90px;
+    }
+    .logbtn{
+        width:330px;
+    }  
+    .regbtn{
+        width:330px;
+}
+}
+
+@media screen and (max-width:414px){
+    .banner{
+        display: none;
+    }
+    .banner2{
+        display: none;
+    }
+    form{
+        margin-bottom:80px;
+    }
+    form input{
+        width:330px !important;
+        height:65px !important;
+    }
+    .logform{
+        margin-top:90px;
+    }
+    .logbtn{
+        width:330px;
+    }  
+    .regbtn{
+        width:330px;
+}
+}
+
+@media screen and (max-width: 768px) { 
+               
+    .banner .logo{
+        width:300px;
+        margin:40px 50px;
+    }
+    .banner2 .logo{
+        width:300px;
+        margin:40px 50px;
+    }
+    form input{
+        width:340px !important;
+        height:65px !important;
+    }
+    .logform{
+        margin-top:90px;
+    }
+    .logbtn{
+    width:330px;
+    }
+    .regbtn{
+        width:330px;
+    } 
+    
+}
+
+
+@media screen and (max-width: 1024px) { 
+               
+    .banner .logo{
+        width:300px;
+        margin:40px 50px;
+    }
+    .banner2 .logo{
+        width:300px;
+        margin:40px 50px;
+    }
+    form input{
+        width:340px !important;
+        height:65px !important;
+    }
+    .logform{
+        margin-top:90px;
+    }
+    .logbtn{
+    width:330px;
+    }
+    .regbtn{
+        width:330px;
+    } 
+    
+}
+

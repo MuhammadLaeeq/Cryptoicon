@@ -1,0 +1,47 @@
+
+/*Registration Css*/
+
+.banner2 {
+    background-color: rgb(248,196,45);
+    height:100vh;
+
+}
+.banner2 .logo{
+    width:400px;
+    margin:30px 150px;
+}
+.regbox{
+     background-color:#eee;
+}
+.regbox h1{
+    margin-top:40px;
+    font-weight:900;
+    font-size:60px;
+}
+.regbtn{
+    width:400px;
+    background-color: rgb(248,196,45);
+    outline:none;
+    color:#000;
+    font-size:20px;
+    font-weight:500;
+    border:none;
+    height:55px;
+}
+
+.regbtn:hover{
+    background-color: rgb(248,196,45);
+    outline:none;
+    border:none;
+    color:#000;
+
+}
+@media screen and (max-width:736px){
+    .formbox h1{
+        margin-top:60px;
+        font-weight:900;
+        text-align: center;
+        font-size:60px;
+    }
+}
+
