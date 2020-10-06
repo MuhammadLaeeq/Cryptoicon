@@ -1,0 +1,329 @@
+
+/*Table Css*/
+
+.tr-spacer{
+    height:12px;
+}
+.tbcolor{
+    background-color: rgb(221, 221, 221);
+    font-size:12px;
+    border-radius:5px;
+}
+
+.box{
+    background-color: #fff;
+    padding:10px;
+}
+.bgcolor{
+    background-color: #fff;
+    margin:15px auto;
+}
+.bgcolor h5{
+    margin-top:10px;
+    font-size:23px;
+    font-weight:bold;
+}
+.text-danger{
+    background-color: rgba(221, 220, 220, 0.411);
+    margin:10px auto;
+    font-size:10px;
+}
+
+/*Plan Card Css*/
+
+.admincard{
+ justify-content: space-around ;
+}
+.cardbox{
+    background-color: #eee;
+    border: 4px solid rgba(0, 0, 0, 0.808); 
+    
+}
+.cardhead, .cardfoot{
+    background-color: rgba(211, 209, 209, 0.616) !important;
+
+}
+.card-header h4{
+    color:rgb(250,196,23);
+    font-size:40px;
+    font-weight:900;
+}
+.card-header h6{
+    color:#000;
+    font-size:15px;
+    text-align: center;
+}
+.cardbdy h6{
+    color:#000;
+    font-size:14px;
+}
+.cardhead{
+    padding:2px;
+}
+.cardbdy{
+    padding:10px;
+}
+.cardbdy span{
+    color:rgb(22, 190, 59);
+}
+.planbtn{
+    background-color: #000;
+    color:#fff;
+    width:100px;
+}
+.planbtn:hover{
+   color:#fff;
+}
+
+/*End of Plan Card Css*/
+
+hr{
+    width:200px;
+    margin-left:80px;    
+    border:0.5px solid rgba(177, 177, 177, 0.301);
+}
+
+/*investment History Css*/
+
+.inetbg{
+    background-color: #eee;
+    margin:0;
+}
+.inetbg .col-sm-3{
+    margin-top:10px;
+}
+.inetbg h6{
+    font-size:14px;
+    font-weight: bold;
+}
+.inetbg p{
+    font-size:12px;
+    margin-top:-5px;
+    font-weight: 500;
+    
+}
+.inetbg span{
+    color:rgb(22, 190, 59);
+}
+
+/*End investment History Css*/
+
+/*User profile Dropdown Css*/
+
+.dropimag, .proimg{
+    width:100px;
+    border-radius:50px;
+}
+.logo{
+    width:250px;
+    margin-left:-20px;
+}
+.drmenue{
+    margin-left:-90px;
+    padding:10px; 
+
+}
+.drmenue h4{
+    font-weight: 800;
+}
+.drmenue a{
+    font-size:15px;
+    margin:10px auto;
+}
+.fa-edit{
+    position: absolute;
+    top:25%;
+    right:32%;
+}
+
+/*End of User profile Dropdown Css*/
+
+
+/*Modal Form Css*/
+
+form{
+    width:400px;
+    margin:0 30px;
+}
+.formh1{   
+
+    font-size:25px;
+    font-weight:bold;
+}
+.contectform input{
+    height:50px !important;
+    background-color: #eee;
+}
+.contectform textarea{
+    background-color: #eee;
+    height:200px !important;
+}
+.formbtn{
+    background-color:rgb(250,196,23) !important;
+    font-size:15px;
+    color:#000;
+    border:none;
+    width:40%;
+    height: 40px;  
+}
+.tbmodal{
+    background-color: #eee; 
+}
+.fa-bitcoin{
+    color: rgb(251,195,24);
+    font-size:16px;
+}
+.dropdown-item:hover{
+    background-color:#eee;
+}
+
+/*Top bar Icon Css*/
+.fa-bitcoin{
+    color: rgb(251,195,24);
+    font-size:12px;
+}
+
+
+
+
+/*------------------Smartphones Mobiles--------------------- */
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+    .topbar{
+        display:none;
+    }
+    form{
+        width:255px;
+        margin:0 auto;
+    }
+    .form-group{
+        width:260px;
+        margin:5px auto;
+    }
+    .input-group{
+        width:250px !important;
+        margin:0 auto;
+    }
+    .cardbox{
+        margin:5px auto;
+    }
+    .dropimag{
+        margin-top:-150px;
+        margin-left:150px;
+    }
+    .drmenue{
+        margin-left:-10px;
+        padding:5px; 
+    
+    }
+    .fa-edit{
+        position: absolute;
+        top:32%;
+        right:35%;
+    }   
+    .logo{
+        width:170px;
+        margin-left:-10px;
+    }
+    .container{
+        margin-top:10px !important;
+    }  
+}
+
+
+/*---------------------Tablet ,Ipad---------------------*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+    .logo{
+        width:200px;
+        margin-left:-10px;
+    }
+    .container{
+        margin-top:10px !important;
+    } 
+    hr{
+        width:200px;
+        margin:10px auto;    
+        border:0.5px solid rgba(177, 177, 177, 0.301);  
+    }
+    .dropimag, .proimg{
+        width:100px;
+        border-radius:50px;
+    }
+    .dropimag{
+        margin-top:-10px;
+        margin-left:150px;
+    }
+    .drmenue{
+        margin-left:-10px;
+        padding:5px; 
+    
+    }
+    .cardhead{
+        padding:0px;
+    }
+    .cardbdy{
+        padding:5px;
+    }
+    .card-header h4{
+        color:rgb(250,196,23);
+        font-size:35px;
+        font-weight:900;
+    }
+    .card-header h6{
+        color:#000;
+        font-size:13px;
+        text-align: center;
+    }
+    .cardbdy h6{
+        color:#000;
+        font-size:14px;
+    }
+    .planbtn{
+        background-color: #000;
+        color:#fff;
+        width:60px;
+        font-size:10px;
+        margin-left:-8px;
+    }
+    .planbtn:hover{
+       color:#fff;
+    }
+    .inetbg h6{
+        font-size:11px;
+        font-weight: bold;
+    }
+    .inetbg p{
+        font-size:10px;
+        margin-top:-5px;
+        font-weight: 500;
+        
+    }
+  }
+
+  /*----------------Tablet, Mobile-------------------*/
+
+  @media (min-width: 481px) and (max-width: 767px) {
+  
+      .topbar{
+          display:none;
+      }
+      .logo{
+          width:150px;
+          margin:0 auto;
+      }
+      .container{
+          margin-top:10px !important;
+      }
+      hr{
+          width:200px;
+          margin:20px auto;
+      }
+      .cardbox{
+          margin:5px auto;
+      }     
+}
+

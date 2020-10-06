@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--CSS File-->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/admin.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    
+    <!--FontAwasom Kit-->  
+    <script src="https://kit.fontawesome.com/601e0e0aae.js" crossorigin="anonymous"></script>
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+ 
+    <title>Admin-CryptoCoin</title>
+</head>
+<body>
+
+  <!--Price-->
+
+  <div class="container-fluid topbar py-2">
+    <div class="row text-center">
+        <div class="col-md-2 price"><i class="fab fa-bitcoin"></i><a href="#" class="text-white"> Bitcoin (BTC) <span>$10.862 (+2.70%)</span> <i class="fas fa-sort-up"></i></a></div>
+        <div class="col-md-2 price"><i class="fab fa-bitcoin"></i><a href="#" class="text-white"> EOS (EOS) <span>$2.65 (-2.42%)</span> <i class="fas fa-sort-up"></i> </a> </div>
+        <div class="col-md-2 price"><i class="fab fa-bitcoin"></i><a href="#" class="text-white"> Ethereum <span>$337.32 (+2.70%)</span> <i class="fas fa-sort-up"></i></a></div>
+        <div class="col-md-2 price"><i class="fab fa-bitcoin"></i><a href="#" class="text-white"> Litecoin (LTC) <span>$46.98 (-3.74%) </span><i class="fas fa-sort-up"></i></a></div>
+        <div class="col-md-2 price"><i class="fab fa-bitcoin"></i><a  class="text-white"> Tether (USDT) <span>$1.01862 (+2.07%)</span> <i class="fas fa-sort-up"></i></a></div>
+        <div class="col-md-2"><a href="#">Powerd By <span>CoinWorld</span></a></div>
+    </div>
+</div>
+
+<!--User Profile Section-->
+
+    <div class="container" style="margin-top:-20px;">
+      
+      <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#"><img src="images/logo.png" class="logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+       
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item "><a class="nav-link mt-5"><h5>Pamela Wade<br><b class="text-success">$1000</b></h5></a></li>
+           
+            <li class="nav-item dropdown">
+              
+              <a class="nav-link " href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                </p><img src="images/c-1.jpeg" class="dropimag">
+              </a>
+
+              <div class="dropdown-menu drmenue text-center" aria-labelledby="navbarDropdownMenuLink">
+      
+                <p class="px-5">Pamelawada@gmail.com</p>
+                <img src="images/c-2.jpeg" class="proimg">
+                <i class="fas fa-edit"></i>
+                <h4 class="mt-3">Bruce Collins</h4>
+              
+                <a class="text-success" href="#">Withdraw</a>
+                <a class="dropdown-item" href="#" data-toggle="modal" data-target="#pendingpayment"><i class="fas fa-circle" style="color:red;font-size:10px;"></i> Pending Payment</a>
+                <a class="dropdown-item" href="#"data-toggle="modal" data-target="#paymenthistory">Payment History</a>
+                <a class="dropdown-item" href="#" data-toggle="modal" data-target="#accountseeting">Account Setting</a>
+                <a class="dropdown-item" href="#" data-toggle="modal" data-target="#help">Help</a>
+                <br>
+                <a class="dropdown-item" href="#" style="color:red;">Sign Out</a>
+  
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>     
+  </div>
+
+  
+ 
+
+    <!--Investment Section-->
+
+   <div class="container con2">
+     <div class="row">
+       <div class="col-md-4 bgcolor py-2">
+        <!--Current Investment-->
+        
+        <h5 class="text-center">Current Investment</h5>
+        <hr>
+        <div class="row text-center inetbg mb-1">
+          <div class="col-sm-3">
+            <h6>Payment</h6>
+            <p><span>$1000</span></p>
+          </div>
+          <div class="col-sm-3">
+           <h6>Duration</h6>
+           <p>2 days</p>
+         </div>
+         <div class="col-sm-3">
+           <h6>Profile</h6>
+           <p class="text-warning">130%</p>
+         </div>
+         <div class="col-sm-3">
+           <h6>Time</h6>
+           <p>30 min ago</p>
+         </div>
+        </div>
+         
+        <div class="row text-center inetbg mb-1">
+          <div class="col-sm-3">
+            <h6>Payment</h6>
+            <p><span>$2000</span></p>
+          </div>
+          <div class="col-sm-3">
+           <h6>Duration</h6>
+           <p>1 days</p>
+         </div>
+         <div class="col-sm-3">
+           <h6>Profile</h6>
+           <p class="text-warning">120%</p>
+         </div>
+         <div class="col-sm-3">
+           <h6>Time</h6>
+           <p>9 hour ago</p>
+         </div>
+        </div>
+
+
+          <div class="row text-center inetbg mb-1">
+            <div class="col-sm-3">
+              <h6>Payment</h6>
+              <p><span>$320</span></p>
+            </div>
+            <div class="col-sm-3">
+             <h6>Duration</h6>
+             <p>5 days</p>
+           </div>
+           <div class="col-sm-3">
+             <h6>Profile</h6>
+             <p class="text-warning">140%</p>
+           </div>
+           <div class="col-sm-3">
+             <h6>Time</h6>
+             <p>4 days ago</p>
+           </div>
+          </div>
+       </div>
+       
+       <!--Graph Section-->
+       <div class="col-md-4">
+             <div id="chartContainer" style="height:360px;"></div>
+       </div>
+       
+       <!--History Section-->
+    
+       <div class="col-md-4  bgcolor py-2 ">
+        <h5 class="text-center ">Investment History</h5>
+        <hr>
+        <div class="row text-center inetbg mb-1">
+          <div class="col-sm-3">
+            <h6>Payment</h6>
+            <p><span>$1000</span></p>
+          </div>
+          <div class="col-sm-3">
+           <h6>Duration</h6>
+           <p>2 days</p>
+         </div>
+         <div class="col-sm-3">
+           <h6>Profile</h6>
+           <p class="text-warning">130%</p>
+         </div>
+         <div class="col-sm-3">
+           <h6>Time</h6>
+           <p>30 min ago</p>
+         </div>
+        </div>
+        
+             
+        <div class="row text-center inetbg mb-1">
+          <div class="col-sm-3">
+            <h6>Payment</h6>
+            <p><span>$2000</span></p>
+          </div>
+          <div class="col-sm-3">
+           <h6>Duration</h6>
+           <p>1 days</p>
+         </div>
+         <div class="col-sm-3">
+           <h6>Profile</h6>
+           <p class="text-warning">120%</p>
+         </div>
+         <div class="col-sm-3">
+           <h6>Time</h6>
+           <p>9 hour ago</p>
+         </div>
+        </div>
+
+        <div class="row text-center inetbg mb-1">
+          <div class="col-sm-3">
+            <h6>Payment</h6>
+            <p><span>$320</span></p>
+          </div>
+          <div class="col-sm-3">
+           <h6>Duration</h6>
+           <p>5 days</p>
+         </div>
+         <div class="col-sm-3">
+           <h6>Profile</h6>
+           <p class="text-warning">140%</p>
+         </div>
+         <div class="col-sm-3">
+           <h6>Time</h6>
+           <p>4 days ago</p>
+         </div>
+        </div>
+         </div>
+        </div>
+      </div>
+
+
+     <!--Investment plan Section-->
+
+    <div class="container  box ">        
+        <div class="row text-center admincard">
+      
+          <div class="col-md-2">
+              <div class="card cardbox">
+                <div class="card-header cardhead">
+                  <h4>120%</h4>
+                  <h6>After  1 Day</h6>
+                </div>
+                <div class="card-body cardbdy">
+                  <h6 class="card-title">Min:<span>$50</span></h6>
+                  <h6 class="card-title">Max:<span>$10.000</span></h6>
+                  <h6 class="card-title">Automatic Withdraw</h6>                
+                </div>
+                <div class="card-footer cardfoot">
+                  <a href="#" class="btn planbtn">Deposit</a>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-md-2">
+              <div class="card cardbox">
+                <div class="card-header cardhead">
+                  <h4>130%</h4>
+                  <h6>After 2 Day</h6>
+                </div>
+                <div class="card-body cardbdy">
+                  <h6 class="card-title">Min:<span>$50</span></h6>
+                  <h6 class="card-title">Max:<span>$10.000</span></h6>
+                  <h6 class="card-title">Automatic Withdraw</h6>                
+                </div>
+                <div class="card-footer cardfoot">
+                  <a href="#" class="btn planbtn">Deposit</a>
+                </div>
+              </div>
+            </div>
+              
+            <div class="col-md-2">
+              <div class="card cardbox">
+                <div class="card-header cardhead">
+                  <h4>140%</h4>
+                  <h6>After 3 Day</h6>
+                </div>
+                <div class="card-body cardbdy">
+                  <h6 class="card-title">Min:<span>$50</span></h6>
+                  <h6 class="card-title">Max:<span>$10.000</span></h6>
+                  <h6 class="card-title">Automatic Withdraw</h6>                
+                </div>
+                <div class="card-footer cardfoot">
+                  <a href="#" class="btn planbtn">Deposit</a>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-md-2">
+              <div class="card cardbox">
+                <div class="card-header cardhead">
+                  <h4>350%</h4>
+                  <h6>After 1 Day</h6>
+                </div>
+                <div class="card-body cardbdy">
+                  <h6 class="card-title">Min:<span>$50</span></h6>
+                  <h6 class="card-title">Max:<span>$10.000</span></h6>
+                  <h6 class="card-title">Automatic Withdraw</h6>                
+                </div>
+                <div class="card-footer cardfoot">
+                    <a href="#" class="btn planbtn">Deposit</a>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-md-2">
+              <div class="card cardbox">
+                <div class="card-header cardhead">
+                  <h4>400%</h4>
+                  <h6>After 2 Day</h6>
+                </div>
+                <div class="card-body cardbdy">
+                  <h6 class="card-title">Min:<span>$50</span></h6>
+                  <h6 class="card-title">Max:<span>$10.000</span></h6>
+                  <h6 class="card-title">Automatic Withdraw</h6>                
+                </div>
+                <div class="card-footer cardfoot">
+                  <a href="#" class="btn planbtn">Deposit</a>
+                </div>
+              </div>
+            </div>
+        </div>
+   </div>
+
+
+
+   <!--Pending Payment Modal-->
+
+  
+  <div class="modal fade" id="pendingpayment" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header" style="border:none;">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <h3 class="text-center mb-4">Pending Payment</h3>
+           
+          <table class="table table-borderless text-center ">
+            <thead>
+              <tr style="background-color: transparent;">
+                <th scope="col">Ammount</th>
+                <th scope="col">Cleard On</th> 
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="my-tr tbmodal">
+                <th scope="row" class="text-success">$1000</th>
+                <td>2/10/2020</td>
+              </tr>
+              <tr class="my-tr tbmodal">
+                <th scope="row" class="text-success">$2000</th>
+                <td>4/9/2020</td>
+                </tr>
+              <tr class="my-tr tbmodal">
+                <th scope="row" class="text-success">$2050</th>
+                <td>1/9/2020</td>
+              </tr>
+            </tbody>
+          </table>
+            
+        </div>
+        <div class="modal-footer  justify-content-center" style="border:none;">
+          <button type="submit" class="btn formbtn">Done</button>  
+        </div> 
+      </div>
+    </div>
+  </div>
+    
+  
+
+   <!--Payment history Modal-->
+
+   
+  <div class="modal fade" id="paymenthistory" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header" style="border:none;">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <h4 class="text-center mb-4">Enter Amount</h4>
+          
+          <div class="input-group mb-3" style="width:400px; margin:0 30px;">
+            <div class="input-group-prepend">
+              <span class="input-group-text text-success" id="basic-addon1">$</span>
+            </div>
+            <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+          </div>
+          <div class="form-group text-center">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+              <label class="form-check-label" for="invalidCheck">
+                Use Account Balance
+              </label>
+            </div>
+            <br>
+            <h5>OR</h5>
+          </div> 
+            <h4 class="text-center">Enter your Bitcoin Information</h4>
+            <hr style="width:85%; margin-left:40px;"> 
+            <form>
+              <div class="form-group">
+                <input type="text" class="form-control" id="exampleInputEmail1">
+                </div>
+              <div class="form-group">
+                <input type="text" class="form-control" id="exampleInputPassword1">
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" id="exampleInputEmail1">
+                </div>
+              <div class="form-group">
+                <input type="text" class="form-control" id="exampleInputPassword1" >
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" id="exampleInputEmail1">
+                </div>
+            </form>
+              
+        </div>
+        <div class="modal-footer justify-content-center" style="border:none;">
+          <button type="submit" class="btn formbtn">Make Payment</button>  
+        </div>
+      </div>
+    </div>
+  </div>
+
+   <!--Account Seeting Modal-->
+
+
+  <div class="modal fade" id="accountseeting" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header" style="border:none;">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          
+          <h4 class="text-center mb-4">Enter Amount</h4>
+          
+          <div class="input-group mb-3" style="width:400px; margin:0 30px;">
+            <div class="input-group-prepend">
+              <span class="input-group-text text-success" id="basic-addon1">$</span>
+            </div>
+            <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+          </div>
+          <div class="form-group text-center">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+              <label class="form-check-label" for="invalidCheck">
+                Use Default Balance
+              </label>
+            </div>
+            <br>
+            <h5>OR</h5>
+          </div> 
+            <h4 class="text-center">Enter your Bitcoin Information</h4>
+            <hr style="width:85%; margin-left:40px;"> 
+            <form>
+              <div class="form-group">
+                <input type="text" class="form-control" id="exampleInputEmail1">
+                </div>
+              <div class="form-group">
+                <input type="text" class="form-control" id="exampleInputPassword1">
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" id="exampleInputEmail1">
+                </div>
+              <div class="form-group">
+                <input type="text" class="form-control" id="exampleInputPassword1" >
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" id="exampleInputEmail1">
+                </div>
+            </form>
+            <div class="modal-footer justify-content-center" style="border:none;">
+              <button type="submit" class="btn formbtn">Make Payment</button>  
+            </div>
+        </div>
+      
+      </div>
+    </div>
+  </div>
+
+   <!--Help Modal Modal-->
+
+
+  <div class="modal fade" id="help" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header" style="border:none;">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form class="contectform" id="form1">
+              <h5 class="mb-3 text-center">Help</h5>
+            <div class="row">
+              <div class="col-sm-12">
+                 <input type="text" class="form-control" placeholder="Subject">
+              </div>
+              <div class="col-sm-12 py-4">
+                <textarea class="form-control" rows="3">Message</textarea>  
+              </div>
+            </div>
+          </form>
+        <div class="modal-footer ml-auto mr-auto justify-content-center" style="border:none;">
+          <button type="submit" class="btn formbtn">Done</button>  
+        </div> 
+        </div>
+      </div>
+    </div>
+  </div>
+    
+<!--Script File-->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/graph.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+

@@ -1,0 +1,183 @@
+
+.userinfo{
+    background-color:rgba(218, 218, 218, 0.267);
+    padding:5px;
+}
+.userinfo:hover{
+    background-color: rgb(251,195,24);
+}
+.card{
+    background-color:rgb(230, 230, 230);
+    border-radius:10px;
+    border:2px solid rgba(0, 0, 0, 0.89);
+}
+
+.logo{
+    width:200px;
+    margin-left:100px;
+}
+/*Edit User Css*/
+
+.edituser img{
+border-radius: 10px;
+width:80px;
+
+}
+.edituser h6{
+    margin-top:10px;
+}
+.edituser p{
+    margin-top:-10px;
+    color:rgb(126, 125, 125);
+}
+.fa-ellipsis-v{
+    position: absolute;
+    right:50px; 
+    top:200px;
+}
+
+/*End Edit User CSS*/
+
+.bgcolor2{
+    background-color: rgb(255, 255, 255);
+    padding:10px;
+}
+
+
+/*Table Css*/
+
+.tr-spacer{
+    height:12px;
+   
+}
+.tbcolor{
+    background-color: #fff;
+    border:1px solid rgb(219, 219, 219);
+    box-shadow: 2px 2px 2px 2px #eee;
+}
+.tbcolor{
+    background-color: #fff;
+    border:1px solid rgb(219, 219, 219);
+    box-shadow: 2px 2px 2px 2px #eee;
+}
+.tbcolor span{
+    color:rgb(69,186,135);
+    font-weight:500;
+
+}
+/*End of Table Css*/
+
+
+/*Underline Css*/
+
+hr{
+    width:350px;
+    margin-left:70px;
+    margin-right:100px;    
+    border:0.5px solid rgb(177, 177, 177);
+}
+
+.cardbdy h3{
+    font-weight: bold;
+    color:rgba(53, 53, 53, 0.993);
+}
+
+/*Edit icon and Deposit Button css*/
+
+.editicon{
+    position:absolute; 
+    top:130px;
+    right:30px;
+    color:#000;
+}
+.editicon:hover{
+    color:#000;
+    text-decoration: none;
+}
+.depositbtn{
+    position: absolute;
+    right:30px;
+    bottom:320px;
+    
+}
+
+
+/*Topbar Price Css*/
+
+.fa-bitcoin{
+    color: rgb(251,195,24);
+    font-size:12px;
+}
+
+/*BacK Arrow Css*/
+
+.arrowlink{
+    color:#000;
+    font-size:30px;
+    position: absolute;
+    top:16px;
+    left:70px;
+}
+
+
+/*-------------Mobile Version----------------*/
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+     .topbar{
+        display:none;
+    }
+    .logo{
+        width:100px;
+        margin-left:20px;
+        
+    }
+    .box h2{
+        font-size:20px;
+    }
+    .fa-bars{
+         margin:0 120px;
+    } 
+    .arrowlink{
+        color:#000;
+        font-size:20px;
+        position: absolute;
+        top:22px;
+        left:18px;
+    }
+    
+hr{
+    width:200px;
+    margin:10px auto;    
+    border:0.5px solid rgb(177, 177, 177);
+}
+.depositbtn{
+    position: absolute;
+    right:30px;
+    bottom:450px;
+    
+}
+.edituser img{
+    border-radius: 10px;
+    width:80px;
+    
+    }
+    .edituser h6{
+        margin-top:10px;
+        font-size:12px;
+    }
+    .edituser p{
+        font-size:12px;
+        margin-top:-10px;
+        color:rgb(126, 125, 125);
+    }
+    .card{
+      margin:5px auto; 
+    }
+    .cardbdy h3{
+        font-weight: bold;
+        font-size:20px;
+        color:rgba(53, 53, 53, 0.993);
+    }
+}

@@ -1,0 +1,144 @@
+
+.topbar{
+    background-color: #000 ;
+}
+.comlogo{
+    width:200px;
+    height:auto;
+}
+.fa-bitcoin{
+    color:rgb(250,196,23);
+    font-size:25px;
+}
+.topbar a{
+    color:rgb(180, 180, 180);
+}
+.topbar a span{
+    color:rgb(250,196,23);
+}
+.lgbtn{
+
+    background-color:rgb(250,196,23);
+    border-radius:20px;
+    color:#000;
+    border-radius:25px;
+    width:130px;
+    height:45px;
+    line-height:28px;
+    margin:0 20px;
+    box-shadow: 0px 0px 6px #00000029;
+
+}
+.navigation{
+    margin:0 40px;
+}
+.navbar ul li a{
+    margin:0 15px;
+    font-size:18px;
+    font-weight:500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.mainbg{
+    background: url('../images/header.png');
+    background-size: cover;
+    width:100%;
+    background-repeat: no-repeat;
+    background-position:center right;
+    height:100vh;
+}
+.mainbg img{
+    width:150px;
+}
+.lefttxt{
+    padding:70px;
+}
+.mainbg h2{
+    text-transform: uppercase;
+    font-size:50px;
+    margin-top:10px;
+    font-weight:300;
+    color:#000;
+}
+.getbtn{
+    width:150px;
+    margin-top:5px;
+}
+.mainbg .fa-chevron-down{
+    display:block;
+    margin:5px 65px;
+    color:rgb(38, 199, 132);
+}
+form input{
+    width:100px !important;
+    height:65px !important;
+}
+form{
+    width:500px;
+    margin:35px auto;
+ }
+ textarea{
+     height:260px !important;
+ }
+ .formbtn{
+     background-color:#407BFF !important;
+     font-size:25px;
+     font-family: 'Montserrat', sans-serif;
+ }
+ form button{
+     width:100%;
+     height:50px;        
+ }
+.formh1{   
+    font-size:25px;
+    font-weight:bold;
+    font-family: 'Montserrat', sans-serif;
+}
+.contectform{
+    position: absolute;
+    top:180px;
+    width:180px;
+    display: none;
+    padding:40px;
+    right:1px;
+    border-radius: 10px;
+    background-color:#173167;
+}
+.contectform input{
+    height:40px !important;
+}
+.contectform textarea{
+    
+    height:200px !important;
+}
+.contectform .formbtn{
+    background-color:#407BFF !important;
+    font-size:15px;
+    font-family: 'Montserrat', sans-serif;
+}
+.contectform button{
+    width:100%;
+    height: 40px;        
+}
+.media img{
+    width:50px !important;
+    
+}
+.mediatxt h5{
+    font-weight:bold;
+    font-size:20px;
+}
+#formButton {
+    z-index:1;
+    display: block;
+    background-color:#173167;
+    border:none;
+    width:130px;
+    color:#fff;
+    position: absolute;
+    transform: matrix(0, -1, 1, 0, 0, 0);
+    top:450px;
+    right:-50px;
+}
+
+

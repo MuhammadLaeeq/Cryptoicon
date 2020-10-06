@@ -6,21 +6,36 @@
 body{
     background-color: #eee;
 }
-form{
-    margin:40px auto;
-}
-form input{
-    width:400px !important;
-    height:65px !important;
-}
-hr{
-    width:320px;
-    border-bottom:1px solid rgba(0, 0, 0, 0.014);
+html{
+	scroll-behavior:smooth;
 }
 
-.link h4{
-font-size:22px;
-text-align: center;
-color:rgb(38, 199, 132);
-
+.topbar{
+    background-color: #000 ;
 }
+.fa-btc{
+    color:rgb(250,196,23);
+    font-size:15px;
+}
+.topbar a{
+    color:rgb(180, 180, 180);
+}
+.topbar a span{
+    color:rgb(250,196,23);
+}
+.price a{
+    text-decoration: none;
+    font-size:14px;
+}
+.price a:hover{
+    text-decoration: underline rgb(22, 190, 59);
+    font-size:14px;
+}
+.price a span{
+    font-size:13px;
+    color:rgb(22, 190, 59);
+}
+.fa-sort-up{
+    color:rgb(22, 190, 59) !important;
+}
+
