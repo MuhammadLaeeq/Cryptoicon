@@ -50,12 +50,12 @@
               </a>
 
               <div class="dropdown-menu drmenue text-center" aria-labelledby="navbarDropdownMenuLink">
-      
+                <div class="drobox">
                 <p class="px-5">Pamelawada@gmail.com</p>
                 <img src="images/c-2.jpeg" class="proimg">
                 <i class="fas fa-edit"></i>
                 <h4 class="mt-3">Bruce Collins</h4>
-              
+              </div>
                 <a class="text-success" href="#">Withdraw</a>
                 <a class="dropdown-item" href="#" data-toggle="modal" data-target="#pendingpayment"><i class="fas fa-circle" style="color:red;font-size:10px;"></i> Pending Payment</a>
                 <a class="dropdown-item" href="#"data-toggle="modal" data-target="#paymenthistory">Payment History</a>
@@ -143,13 +143,13 @@
        </div>
        
        <!--Graph Section-->
-       <div class="col-md-4">
-             <div id="chartContainer" style="height:360px;"></div>
+       <div class="col-md-4" >
+             <div id="chartContainer"  style="height:260px;"></div>
        </div>
        
        <!--History Section-->
     
-       <div class="col-md-4  bgcolor py-2 ">
+       <div class="col-md-4  bgcolor ">
         <h5 class="text-center ">Investment History</h5>
         <hr>
         <div class="row text-center inetbg mb-1">
@@ -216,8 +216,8 @@
 
      <!--Investment plan Section-->
 
-    <div class="container  box ">        
-        <div class="row text-center admincard">
+    <div class="container  box">        
+        <div class="row text-center admincard ">
       
           <div class="col-md-2">
               <div class="card cardbox">
@@ -367,47 +367,34 @@
           </button>
         </div>
         <div class="modal-body">
-          <h4 class="text-center mb-4">Enter Amount</h4>
-          
-          <div class="input-group mb-3" style="width:400px; margin:0 30px;">
-            <div class="input-group-prepend">
-              <span class="input-group-text text-success" id="basic-addon1">$</span>
-            </div>
-            <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
-          </div>
-          <div class="form-group text-center">
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
-              <label class="form-check-label" for="invalidCheck">
-                Use Account Balance
-              </label>
-            </div>
-            <br>
-            <h5>OR</h5>
-          </div> 
-            <h4 class="text-center">Enter your Bitcoin Information</h4>
-            <hr style="width:85%; margin-left:40px;"> 
-            <form>
-              <div class="form-group">
-                <input type="text" class="form-control" id="exampleInputEmail1">
-                </div>
-              <div class="form-group">
-                <input type="text" class="form-control" id="exampleInputPassword1">
-              </div>
-              <div class="form-group">
-                <input type="text" class="form-control" id="exampleInputEmail1">
-                </div>
-              <div class="form-group">
-                <input type="text" class="form-control" id="exampleInputPassword1" >
-              </div>
-              <div class="form-group">
-                <input type="text" class="form-control" id="exampleInputEmail1">
-                </div>
-            </form>
-              
+          <h3 class="text-center mb-4">Payment History</h3>
+           
+          <table class="table table-borderless text-center ">
+            <thead>
+              <tr style="background-color: transparent;">
+                <th scope="col">Ammount</th>
+                <th scope="col">Cleard On</th> 
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="my-tr tbmodal">
+                <th scope="row" class="text-success">$1000</th>
+                <td>2/10/2020</td>
+              </tr>
+              <tr class="my-tr tbmodal">
+                <th scope="row" class="text-success">$2000</th>
+                <td>4/9/2020</td>
+                </tr>
+              <tr class="my-tr tbmodal">
+                <th scope="row" class="text-success">$2050</th>
+                <td>1/9/2020</td>
+              </tr>
+            </tbody>
+          </table>
+            
         </div>
-        <div class="modal-footer justify-content-center" style="border:none;">
-          <button type="submit" class="btn formbtn">Make Payment</button>  
+        <div class="modal-footer  justify-content-center" style="border:none;">
+          <button type="submit" class="btn formbtn">Done</button>  
         </div>
       </div>
     </div>
@@ -415,62 +402,6 @@
 
    <!--Account Seeting Modal-->
 
-
-  <div class="modal fade" id="accountseeting" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <div class="modal-header" style="border:none;">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          
-          <h4 class="text-center mb-4">Enter Amount</h4>
-          
-          <div class="input-group mb-3" style="width:400px; margin:0 30px;">
-            <div class="input-group-prepend">
-              <span class="input-group-text text-success" id="basic-addon1">$</span>
-            </div>
-            <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
-          </div>
-          <div class="form-group text-center">
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
-              <label class="form-check-label" for="invalidCheck">
-                Use Default Balance
-              </label>
-            </div>
-            <br>
-            <h5>OR</h5>
-          </div> 
-            <h4 class="text-center">Enter your Bitcoin Information</h4>
-            <hr style="width:85%; margin-left:40px;"> 
-            <form>
-              <div class="form-group">
-                <input type="text" class="form-control" id="exampleInputEmail1">
-                </div>
-              <div class="form-group">
-                <input type="text" class="form-control" id="exampleInputPassword1">
-              </div>
-              <div class="form-group">
-                <input type="text" class="form-control" id="exampleInputEmail1">
-                </div>
-              <div class="form-group">
-                <input type="text" class="form-control" id="exampleInputPassword1" >
-              </div>
-              <div class="form-group">
-                <input type="text" class="form-control" id="exampleInputEmail1">
-                </div>
-            </form>
-            <div class="modal-footer justify-content-center" style="border:none;">
-              <button type="submit" class="btn formbtn">Make Payment</button>  
-            </div>
-        </div>
-      
-      </div>
-    </div>
-  </div>
 
    <!--Help Modal Modal-->
 
@@ -484,20 +415,22 @@
           </button>
         </div>
         <div class="modal-body">
-          <form class="contectform" id="form1">
-              <h5 class="mb-3 text-center">Help</h5>
-            <div class="row">
-              <div class="col-sm-12">
-                 <input type="text" class="form-control" placeholder="Subject">
-              </div>
-              <div class="col-sm-12 py-4">
-                <textarea class="form-control" rows="3">Message</textarea>  
-              </div>
+          <h3 class="modal-title text-center py-3" id="exampleModalLongTitle">Help</h3>
+          <form>
+            
+            <div class="form-group">           
+              <input type="text" class="form-control" id="recipient-name" placeholder="Subject" style="height:50px;background-color:rgba(221, 214, 214, 0.315);">
             </div>
+            
+            <div class="form-group">
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" style="height:200px; background-color:rgba(221, 214, 214, 0.315);" placeholder="Message"></textarea>
+            </div>
+     
           </form>
-        <div class="modal-footer ml-auto mr-auto justify-content-center" style="border:none;">
-          <button type="submit" class="btn formbtn">Done</button>  
-        </div> 
+        </div>
+        <div class="modal-footer justify-content-center" style="border:none;">
+          <button type="button" class="btn formbtn" data-dismiss="modal">Send</button>
+        </div>
         </div>
       </div>
     </div>

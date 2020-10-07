@@ -1,6 +1,16 @@
 
 /*Topbar Css*/
-
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #eee;
+}
+html{
+	scroll-behavior:smooth;
+}
 .topbar{
     background-color: #000 ;
 }
@@ -16,17 +26,21 @@
 }
 .price a{
     text-decoration: none;
-    font-size:14px;
+    font-size:12px !important;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:400;
+    
 }
 .price a:hover{
     text-decoration: underline rgb(22, 190, 59);
-    font-size:14px;
+    font-size:13px;
 }
 .price a span{
     font-size:13px;
     color:rgb(22, 190, 59);
 }
 .fa-sort-up{
+    
     color:rgb(22, 190, 59) !important;
 }
 
@@ -57,8 +71,10 @@
 }
 .navbar ul li a{
     margin:0 15px;
-    font-size:18px;
-    font-weight:500;
+    font-size:25px;
+    font-weight:400;
+    font-style: normal;
+    color: #173167 !important;
     font-family: 'Montserrat', sans-serif;
 }
 .mainbg{
@@ -66,14 +82,16 @@
     background-size: cover;
     width:100%;
     background-repeat: no-repeat;
-    background-position:center right;
+    background-position:left center;
     height:100vh;
 }
 .mainbg img{
     width:150px;
+    height:150px;
 }
 .media img{
     width:30px;
+    height:30px;
 }
 .lefttxt{
     padding:90px;
@@ -81,19 +99,22 @@
 .mainbg h2{
     text-transform: uppercase;
     font-size:50px;
-    letter-spacing: 5px;
+    font-style:normal;
+    font-family: 'Montserrat', sans-serif;
     margin-top:20px;
     font-weight:300;
     color:#000;
 }
 .getbtn{
-    width:180px;
+    width:200px;
     margin-top:5px;
     font-size:20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:300;
 }
 .mainbg .fa-chevron-down{
     display:block;
-    margin:5px 80px;
+    margin:5px 90px;
     color:rgb(38, 199, 132);
 }
 
@@ -131,18 +152,25 @@
 }
 .aboutbg h1 span{
     padding:5px;
-    font-size:60px;
+    font-size:70px;
     font-weight:300;
 }
 .aboutbg h1{
     color:#000;
     margin:50px 100px;
-    font-size:55px;
+    font-size:80px;
 }
 .aboutbg p{
-    font-size:20px;
-    color:#000;
-    margin:0  20px;
+    font-size:25px;
+    color: #000000;
+    font-style:normal;
+    font-weight: 500;    
+    text-align:left;
+    margin:20px  20px;
+    font-family: 'Montserrat', sans-serif;
+}
+.aboutimg{
+    margin-top:10px;
 }
 
 /*End of About Css*/
@@ -160,22 +188,16 @@
 }
 .planbg h1{
     color:#eee;
-    margin:50px 100px;
-    font-size:55px;
+    margin:30px 80px;
+    font-size:70px;
+    border-bottom:2px solid rgba(206, 206, 206, 0.267);
+    width:600px;
     font-weight:300;
+    font-family: 'Montserrat', sans-serif;
 
 }
-.planbg hr{
-    width:360px;
-    margin-top:-40px;
-    margin-left:100px;
-    margin-right:100px;    
-    border:0.5px solid rgb(71, 71, 71);
-
-}
-
 .planbox{
-    margin:0 50px;
+    margin:0 20px;
     justify-self: flex-end;
     justify-content: space-evenly;
 }
@@ -188,8 +210,10 @@
     background-color: rgb(39, 36, 36) !important;
 }
 .card-header h4{
-    color:rgb(250,196,23);
-    font-size:40px;
+    font-size:50px;
+    color: #FAC417;
+    font-weight:800;
+    font-family: 'Montserrat', sans-serif;
 }
 .card-header h6{
     color:#fff;
@@ -214,13 +238,11 @@
 /*End of Plan Css*/
 
 /*Rule Css*/
-
-.rules hr{
-    width:130px;
-    margin-top:-40px;
-    margin-left:100px;
-    margin-right:100px;    
-    border:0.5px solid rgb(71, 71, 71);
+.rules h1{
+    font-family: 'Montserrat', sans-serif;
+    font-style:normal;
+    font-weight:300;
+    width:300px;
 }
 .rules ul{
 margin:0 110px;
@@ -265,9 +287,11 @@ margin:0 110px;
 }
 .btn-link{
     text-decoration: none !important;
+    width:100%;
 }
 .questiontxt{
-    font-size:20px;
+    text-align: left;
+    font-size:25px;
     color:#000;
 }
 #accordion .card .btn-link .fas{
@@ -285,21 +309,17 @@ margin:0 110px;
     font-size:55px;
     font-weight:300;
 }
-.contact hr{
-    width:260px;
-    margin-top:-40px;
-    margin-left:140px;
-    margin-right:100px;    
-    border:0.5px solid rgb(177, 177, 177);
+.contact{
+    margin:20px auto;
+}
+.map iframe{
+    margin:0 auto;
+    width:600px !important;
 
 }
-.map{
-    margin:30px auto;
-    width:300px;
-}
 .contform{
-    width:450px;
-    margin:35px auto;
+    width:550px;
+    margin:35px 0px;
 } 
 input{
 height:70px !important;
@@ -311,6 +331,8 @@ height:70px !important;
      background-color:#000;
      font-size:22px;
      color:#fff;
+     width:99%;
+     border:none;
 }
 form button{
      width:100%;
@@ -424,7 +446,14 @@ form button{
 /*---------------Mobile----------------------------*/
 
 @media (min-width: 320px) and (max-width: 480px) {
-  
+       .row{
+           margin:0;
+       }
+       .mainbg{
+           width:100%;
+           background-position: center;
+           padding:0;
+       }
       .topbar{
           display:none;
       }
@@ -443,10 +472,7 @@ form button{
       .cardbox{
           margin:5px auto;
       }
-      hr{
-          width:300px !important;
-          margin:10px auto; 
-      }
+     
       .ani{
         display:none;
       }
@@ -455,6 +481,7 @@ form button{
       }
     .mainbg img{
         width:100px !important;
+        height:100px;
         margin:0 100px !important;
     }
     .lefttxt{
@@ -478,12 +505,13 @@ form button{
         font-size:45px;
         font-weight:300;
     }
-    .contact hr{
-      margin:5px auto;    
-      border:0.5px solid rgb(177, 177, 177);
-    }
+   
     .map iframe {
         width:300px !important;
+    }
+    .contform{
+        width:550px;
+        margin:35px auto;
     }
     
 .accordion1{
@@ -494,7 +522,7 @@ form button{
 }
 #accordion .card .btn-link .fas{
     position: absolute;
-    right:5px; 
+    right:15px; 
     top:25px;
 }
 .questiontxt{
@@ -536,24 +564,21 @@ form button{
     color:#000;
     margin-top:10px;
 }
+
 .planbg h1{
     color:#eee;
-    margin:50px 30px;
-    font-size:40px !important;
+    
+    text-align: center;
+    font-size:30px;
+    border-bottom:2px solid rgba(206, 206, 206, 0.267);
+    width:300px;
+    margin: 10px auto;
     font-weight:300;
+    font-family: 'Montserrat', sans-serif;
 
 }
-.planbg hr{
-    width:180px !important;
-    margin:5px auto;    
-    border:0.5px solid rgb(71, 71, 71);
 
-}
-.rules hr{
-    width:130px;
-    margin:5px auto !important;
-    border:0.5px solid rgb(71, 71, 71);
-}
+
 .rules h1{
     color:#eee;
     margin:50px 30px;
@@ -619,6 +644,16 @@ form{
     }
     .ani{
         display:none;
+    }
+    .planbg h1{
+        color:#eee;
+        margin:30px 80px;
+        font-size:90px;
+        border-bottom:2px solid rgba(206, 206, 206, 0.267);
+        width:800px;
+        font-weight:300;
+        font-family: 'Montserrat', sans-serif;
+    
     }
     .cardbox{
         margin:5px auto;
