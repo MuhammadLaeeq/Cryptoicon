@@ -629,11 +629,7 @@ form{
     width:100%;
     height: 50px;        
 }
-.map iframe{
-    
-    width:300px !important;
 
-}
 .emailtxt{
     color:#000;
     font-weight: 500;
@@ -821,12 +817,72 @@ font-weight:300;
 
 @media (min-width: 768px) and (max-width: 1024px){
   
+  
+.formh1{   
+    font-size:25px;
+    font-weight:bold;
+}
 
+.contectform{
+    position: absolute;
+    top:180px;
+    width:280px;
+    display: none;
+    padding:40px;
+    right:1px;
+    border-radius: 10px;
+    background-color:#000;
+}
+.contectform input{
+    height:40px !important;
+}
+.contectform textarea{
+    
+    height:200px !important;
+}
+.contectform .formbtn{
+    background-color:rgb(250,196,23) !important;
+    font-size:15px;
+    color:#000;
+    border:none;
+    
+}
+.contectform button{
+    width:100%;
+    height: 40px;        
+}
+.mediatxt h5{
+    font-weight:bold;
+    font-size:20px;
+}
+#formButton {
+    z-index:1;
+    display: block;
+    background-color:#000;
+    border:none;
+    width:130px;
+    cursor: pointer;
+    color:#fff;
+    position: absolute;
+    transform: matrix(0, -1, 1, 0, 0, 0);
+    top:350px;
+    right:-50px;
+}
+.media img{
+    width:30px !important;
+    height:30px !important;
+    margin-right:-120px !important;
+        
+}
+.mediatxt h5{
+    margin-left:-90px;
+}
 .mainbg{
     margin-top:10px;
 }
 .mainbg img{
   width:100px !important;
+  height:100px;
   margin:0 100px !important;
 }
 .lefttxt{
@@ -868,7 +924,7 @@ font-weight:300;
 .planbtn{
     background-color:rgb(250,196,23);
     color:#000;
-    width:60px;
+    width:70px;
     font-weight: bold;
     font-size:12px;
     margin-left:-15px;
@@ -880,23 +936,20 @@ font-weight:300;
     display: none;
 }
 .accordion1{
-margin:20px auto;
+ margin:20px auto;
 }
 .accordion1 .col-md-6{
-margin:20px auto;
+ margin:20px auto;
 }
 #accordion .card .btn-link .fas{
-position: absolute;
-right:5px; 
-top:25px;
+ position: absolute;
+ right:5px; 
+ top:25px;
 }
 .questiontxt{
-font-size:13px;
+ font-size:13px;
 }
-.map iframe {
-    width:300px !important;
-    margin:0 20px;
-  }
+
 .contact h1{ 
     margin:50px 50px;
     font-size:45px;
@@ -910,34 +963,137 @@ font-size:13px;
     width:290px;
     margin-top:10px;
     margin-left:20px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;    
+}
+
+form{
+    width:380px;
     
 }
-form{
-    width:370px;
-}
-  input{
+input{
  
     height:60px !important;
- }
- textarea{
+}
+textarea{
    
     height:280px !important;
- }  
- form button{
+}  
+form button{
     width:380px;
     height: 50px;        
 }  
-.mediatxt h5{
-    font-weight:bold;
-    font-size:20px;
-    text-align: center;
-}
-.map iframe{
-width:400px;
-}
-
+form{
+    width:300px;
+    margin:35px auto;
+ }
+ form button{
+    width:100%;
+    height: 50px;        
 }
 
+}
 
 
+
+
+@media only screen and (min-width : 1025px) and (max-width:1223px){
+
+    .questiontxt{
+        font-size:19px;
+        }
+        .faqbgicon{
+            margin-left:-200px;
+        }
+        
+        .cardhead{
+            padding:0px;
+        }
+        .cardbdy{
+            padding:5px;
+        }
+        .card-header h4{
+            color:rgb(250,196,23);
+            font-size:45px;
+            font-weight:900;
+        }
+        .card-header h6{
+            color:#fff;
+            font-size:17px;
+            text-align: center;
+        }
+        .cardbdy h6{
+            color:#fff;
+            font-size:16px;
+        }
+        .planbtn{
+            background-color:rgb(250,196,23);
+            color:#000;
+            width:80px;
+            font-weight: bold;
+            font-size:12px;
+            margin-left:-15px;
+        }
+        .planbtn:hover{
+           color:#fff;
+        }
+        form{
+            width:400px;
+            margin:35px auto;
+         }
+         form button{
+            width:100%;
+            height: 50px;        
+        }
+} 
+
+
+
+@media only screen and (min-width : 1224px) and (max-width:1300px){
+
+    .questiontxt{
+        font-size:19px;
+        }
+        .faqbgicon{
+            margin-left:-200px;
+        }
+        
+        .cardhead{
+            padding:0px;
+        }
+        .cardbdy{
+            padding:5px;
+        }
+        .card-header h4{
+            color:rgb(250,196,23);
+            font-size:45px;
+            font-weight:900;
+        }
+        .card-header h6{
+            color:#fff;
+            font-size:17px;
+            text-align: center;
+        }
+        .cardbdy h6{
+            color:#fff;
+            font-size:16px;
+        }
+        .planbtn{
+            background-color:rgb(250,196,23);
+            color:#000;
+            width:80px;
+            font-weight: bold;
+            font-size:12px;
+            margin-left:-15px;
+        }
+        .planbtn:hover{
+           color:#fff;
+        }
+} 
+
+
+
+
+
+@media only screen and (min-width:1224px){
+       
+}
