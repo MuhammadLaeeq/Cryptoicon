@@ -5,8 +5,9 @@
     padding:0;
     box-sizing: border-box;
 }
+
 body{
-    background-color: #eee;
+    background-color: #F8F8F9;
 }
 html{
 	scroll-behavior:smooth;
@@ -705,6 +706,7 @@ form{
     }
     .mainbg img{
     width:100px !important;
+    height:108px;
     margin:0 180px !important;
     }
     .lefttxt{
@@ -729,6 +731,7 @@ form{
     }
     .map iframe {
     width:300px !important;
+    margin-left:80px;
    }
 
 .faqbgicon{
@@ -782,9 +785,11 @@ text-align: center;
 padding:5px;
 font-size:40px;
 font-weight:300;
+text-align: center;
 }    
 .aboutbg h1{
 font-size:40px;
+text-align: center;
 
 }  
 .aboutbg p{
@@ -797,7 +802,7 @@ color:#eee;
 margin:50px 30px;
 font-size:40px !important;
 font-weight:300;
-width:100px;
+width:200px;
 
 }
 
@@ -808,7 +813,6 @@ font-size:50px;
 width:100px;
 font-family: 'Montserrat', sans-serif;
 font-weight:300;
-
 
 }    
 }

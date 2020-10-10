@@ -18,6 +18,9 @@
     margin-top:40px;
     font-weight:900;
     font-size:60px;
+    font-style:normal;
+    color: #161616;
+    font-family: 'Montserrat', sans-serif;
 }
 .regbtn{
     width:400px;
@@ -53,7 +56,9 @@ hr{
 .link h4{
     font-size:22px;
     text-align: center;
-    color:rgb(38, 199, 132);
+    color:#1DBF73;
+    font-style:normal;
+    font-family: 'Montserrat', sans-serif;
     }
 
 

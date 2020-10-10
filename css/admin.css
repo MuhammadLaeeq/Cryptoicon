@@ -1,332 +1,499 @@
 
-/*Table Css*/
+.topbar{
+    background-color: #000 ;
+}
+.fa-bitcoin{
+    color:rgb(250,196,23);
+    font-size:12px;
+}
+.topbar a{
+    color:rgb(180, 180, 180);
+}
+.topbar a span{
+    color:rgb(250,196,23);
+}
+.price a{
+    text-decoration: none;
+    font-size:14px;
+}
+.price a:hover{
+    text-decoration: underline rgb(22, 190, 59);
+    font-size:14px;
+}
+.price a span{
+    font-size:13px;
+    color:rgb(22, 190, 59);
+}
+.fa-sort-up{
+    color:rgb(22, 190, 59) !important;
+}
+
+
+
+
+.Conbox{
+margin-top:15px;
+}
+
+.box{
+    background-color:#fff;
+    padding:15px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.13);
+    border: 1px solid #E4E4E4;
+}
+.box h4{
+    text-align: center;
+    color:#4D4D4D;
+    font-weight: 900;
+    border-bottom:1px solid #eee;
+    font-style: normal;
+    font-family: 'Montserrat', sans-serif;
+}
+.bgcolor{
+    background-color: #eee;
+    text-align: center;
+    border:1px solid #E4E4E4;
+    padding:0;
+    margin:0 1px;
+    font-size:10px;
+}
+.bgcolor .col-sm-3{
+    margin-top:5px;
+}
+.bgcolor h6{
+    font-size:12px;
+     font-style:normal;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:600;
+    color:#4D4D4D;
+}
+.bgcolor p{
+    font-size:10px;
+    font-style:normal;
+    font-family: 'Montserrat', sans-serif;
+    color:#888888;
+    
+}
+.bgcolor span{
+    color:#1DBF73;
+      font-weight:600;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.bgcolor .pr{
+    color:#FAC417;
+      font-weight:600;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.logo{
+    width:219px;
+    padding:20px;
+}
+.dropbox{
+    position: relative;
+    left:200px;
+    margin-top:10px;
+    
+    
+}
+.dropbox p{
+    position: absolute;
+    left:-150px;
+    top:15px;
+    font-size:20px;
+    color:#434343;
+    font-style: normal;
+    font-weight:500;
+    font-family: 'Montserrat', sans-serif;
+}
+.dropbox p span{
+    color:#1DBF73;
+    font-style: normal;
+    font-weight:500;
+    font-family: 'Montserrat', sans-serif;
+}
+.dropbox img{
+padding:5px;
+}
+.chart{
+    background-color: #fff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.281);
+
+}
+.priceplan{
+    background-color: #fff;
+    box-shadow: 0px 0px 5px #0000000D;
+    border: 1px solid #E4E4E4;
+}
+.admincard{
+    justify-content:space-evenly;
+}
+.cardbox{
+    background-color: #eee;
+    box-shadow: 0px 0px 5px #0000000D;
+    border: 3px solid #4D4D4D; 
+    
+}
+.cardhead, .cardfoot{
+    background-color: #F8F8F9 !important;
+
+}
+
+.card-header h4{
+    color:#FAC417;
+    font-size:40px;
+    font-weight:900;
+}
+.card-header h6{
+    color:#4D4D4D;
+    font-size:19px;
+    text-align: center;
+}
+.cardbdy h6{
+    color:#4D4D4D;
+    font-size:14px;
+}
+.cardhead{
+    padding:0px;
+}
+.cardbdy{
+    padding:1px;
+}
+.cardbdy span{
+    color: #1DBF73;
+}
+.planbtn{
+    background-color: #000000;
+    color: #EFEFEF;
+    width:100px;
+}
+.planbtn:hover{
+    color: #EFEFEF;
+}
+
+.modal-title{
+font-size:28px; 
+color:#4D4D4D;
+font-weight:900;
+font-family: 'Montserrat', sans-serif;
+
+}
+.eintinfo{
+    font-size:28px;
+    color:#4D4D4D;
+    font-weight:900;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+input{
+    background-color: #EFEFEF !important;
+}
+.formbtn
+{
+    background-color: #FAC417;
+    color:#000000;
+    width:40%;
+    height: 40px; 
+    border-radius: 6px;
+    box-shadow: 0px 0px 6px #00000029;
+}
+
+.input-group{
+    width:300px;
+    margin:0 auto;
+}
+
+
+.dropbtn {
+  
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #eee;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right:0;
+  min-width: 330px;
+  overflow: auto;
+  background-color: #FFFFFF;
+  box-shadow: 0px 0px 6px #00000029;
+  border: 1px solid #BEBEBE;
+  border-radius: 10px;
+  z-index: 1;
+}
+.dropdown-content h6{
+    color: #173167;
+    opacity: 0.5;
+}
+.dropdown-content h5{
+    color:#173167;
+    margin-top:10px;
+    font-weight:800;
+    font-family: 'Montserrat', sans-serif;
+    font-style:normal;
+    
+}
+.dropdown-content .withdra{
+    color: #1DBF73;
+    font-family: 'Montserrat', sans-serif;
+    font-style:normal;
+    font-size:15px;
+    text-decoration: underline;
+
+}
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 5px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+
+.signout{
+    color:#FF0000 !important;
+    font-weight:600;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style:normal;
+    font-size:18px;
+}
 
 .tr-spacer{
     height:12px;
 }
-.tbcolor{
-    background-color: rgb(221, 221, 221);
-    font-size:12px;
-    border-radius:5px;
-}
-
-.box{
-    background-color: #fff;
-    padding:10px;
-}
-.bgcolor{
-    background-color: #fff;
-    margin:15px auto;
-}
-.bgcolor h5{
-    margin-top:10px;
-    font-size:23px;
-    font-weight:bold;
-    color:#4D4D4D;
-}
-.text-danger{
-    background-color: rgba(221, 220, 220, 0.411);
-    margin:10px auto;
-    font-size:10px;
-}
-
-/*Plan Card Css*/
-
-.admincard{
- justify-content: space-around ;
-}
-.cardbox{
-    background-color: #eee;
-    border: 4px solid rgba(0, 0, 0, 0.808); 
-    
-}
-.cardhead, .cardfoot{
-    background-color: rgba(211, 209, 209, 0.616) !important;
-
-}
-.card-header h4{
-    color:rgb(250,196,23);
-    font-size:35px;
-    font-weight:900;
-}
-.card-header h6{
-    color:#000;
-    font-size:12px;
-    text-align: center;
-}
-.cardbdy h6{
-    color:#000;
-    font-size:14px;
-}
-.cardhead{
-    padding:2px;
-}
-.cardbdy{
-    padding:10px;
-}
-.cardbdy span{
-    color:rgb(22, 190, 59);
-}
-.planbtn{
-    background-color: #000;
-    color:#fff;
-    width:100px;
-}
-.planbtn:hover{
-   color:#fff;
-}
-
-/*End of Plan Card Css*/
-
-hr{
-    width:200px;
-    margin-left:80px;    
-    border:0.5px solid rgba(177, 177, 177, 0.301);
-}
-
-/*investment History Css*/
-
-.inetbg{
-    background-color: #eee;
-    margin:0;
-    padding:0;
-}
-.inetbg .col-sm-3{
-    margin-top:5px;
-}
-.inetbg h6{
-    font-size:10px;
-    font-weight: bold;
-}
-.inetbg p{
-    font-size:10px;
-    margin-top:-5px;
-    font-weight: 500;
-    
-}
-.inetbg span{
-    color:rgb(22, 190, 59);
-}
-
-/*End investment History Css*/
-
-/*User profile Dropdown Css*/
-
-.dropimag, .proimg{
-    width:100px;
-    border-radius:50px;
-}
-.logo{
-    width:200px;
-    margin-left:-20px;
-}
-.drmenue{
-    margin-left:-90px;
-    padding:10px; 
-
-}
-.drmenue h4{
-    font-weight: 800;
-}
-.drmenue a{
-    font-size:15px;
-    margin:10px auto;
-}
-.fa-edit{
-    position: absolute;
-    top:25%;
-    right:32%;
-}
-
-/*End of User profile Dropdown Css*/
-
-
-/*Modal Form Css*/
-
-form{
-    width:400px;
-    margin:0 30px;
-}
-.formh1{   
-
-    font-size:25px;
-    font-weight:bold;
-}
-.contectform input{
-    height:50px !important;
-    background-color: #eee;
-}
-.contectform textarea{
-    background-color: #eee;
-    height:200px !important;
-}
-.formbtn{
-    background-color:rgb(250,196,23) !important;
-    font-size:15px;
-    color:#000;
-    border:none;
-    width:40%;
-    height: 40px;  
-}
 .tbmodal{
-    background-color: #eee; 
+    background-color:#EFEFEF;
+    font-size:15px;
+    border-radius:5px;
+    
 }
-.fa-bitcoin{
-    color: rgb(251,195,24);
-    font-size:16px;
+.tbmodal th{
+    font-style:normal;
+    color:#1DBF73;
+    font-weight: 500; 
+    font-family: 'Montserrat', sans-serif;
+   
 }
-.dropdown-item:hover{
-    background-color:#eee;
-}
-
-/*Top bar Icon Css*/
-.fa-bitcoin{
-    color: rgb(251,195,24);
-    font-size:12px;
+.tbmodal td{
+    color:#888888;
 }
 
+.table th{
+    color: #4D4D4D;
+    font-weight: 600;
+    font-style:normal; 
+    font-family: 'Montserrat', sans-serif;
+}
+.modal-body h3{
+    color:#4D4D4D;
+    font-weight: 700;
+    font-style:normal; 
+    font-family: 'Montserrat', sans-serif;
+}
 
 
 
-/*------------------Smartphones Mobiles--------------------- */
 
+/*---------------------------Responsive----------------------*/
 
 @media (min-width: 320px) and (max-width: 480px) {
-  
     .topbar{
         display:none;
     }
-    form{
-        width:255px;
-        margin:0 auto;
+    .dropbox{
+        left:0;
     }
-    .form-group{
-        width:260px;
-        margin:5px auto;
+    .dropbox p{
+        margin-left:20px;
+        left:0;
+        font-size:18px;
     }
-    .input-group{
-        width:250px !important;
-        margin:0 auto;
+    .dropbox img{
+      margin-left:160px;
+       left:0;
+    }
+    .dropdown-content{
+        margin-right:-60px;
+
+    }
+    .dropdown-content img{
+        margin:0;
     }
     .cardbox{
         margin:5px auto;
     }
-    .dropimag{
-        margin-top:-150px;
-        margin-left:150px;
+    .input-group{
+        width:220px;
     }
-    .drmenue{
-        margin-left:-10px;
-        padding:5px; 
-    
-    }
-    .fa-edit{
-        position: absolute;
-        top:32%;
-        right:35%;
-    }   
-    .logo{
-        width:170px;
-        margin-left:-10px;
-    }
-    .container{
-        margin-top:10px !important;
-    }  
 }
 
 
-/*---------------------Tablet ,Ipad---------------------*/
-  /*----------------Tablet, Mobile-------------------*/
+@media (min-width: 481px) and (max-width: 767px) {
+    .topbar{
+        display:none;
+    }
+    .dropbox{
+        left:0;
+    }
+    .dropbox p{
+        margin-left:120px;
+        left:0;
+        font-size:18px;
+    }
+    .dropbox img{
+      margin-left:250px;
+       left:0;
+    }
+    .dropdown-content{
+        margin-right:-60px;
 
-  @media (min-width: 481px) and (max-width: 767px) {
-  
-      .topbar{
-          display:none;
-      }
-     
-      .logo{
-          width:150px;
-          margin:0 auto;
-      }
-      .container{
-          margin-top:10px !important;
-      }
-      hr{
-          width:200px;
-          margin:20px auto;
-      }
-      .cardbox{
-          margin:5px auto;
-      }  
-         
+    }
+    .dropdown-content img{
+        margin:0;
+    }
+    .cardbox{
+        margin:5px auto;
+    }
+    .input-group{
+        width:220px;
+    }
 }
+
+
 
 @media (min-width: 768px) and (max-width: 1024px) {
-  
-    .logo{
-        width:200px;
-        margin-left:-10px;
+    
+    .dropbox{
+        left:0;
     }
-    .container{
-        margin-top:10px !important;
-    } 
-    hr{
-        width:200px;
-        margin:10px auto;    
-        border:0.5px solid rgba(177, 177, 177, 0.301);  
+    .dropbox p{
+        margin-left:20px;
+        left:0;
+        font-size:18px;
     }
-    .dropimag, .proimg{
+    .dropbox img{
+      margin-left:170px;
+       left:0;
+    }
+    .dropdown-content{
+        margin-right:-60px;
+
+    }
+    .dropdown-content img{
+        margin:0;
+    }
+    .cardbox{
+        margin:5px auto;
+    }
+    .input-group{
+        width:220px;
+    }
+    .planbtn{
+        background-color: #000000;
+        color: #EFEFEF;
         width:100px;
-        border-radius:50px;
+        margin-left:-5px;
     }
-    .dropbox
-    
-    .drmenue{
-        margin-left:-10px;
-        padding:5px; 
-    
+    .planbtn:hover{
+        color: #EFEFEF;
     }
+}
+
+@media (max-width: 768px){
     
+
+    .card-header h4{
+        color:#FAC417;
+        font-size:30px;
+        font-weight:900;
+    }
+    .card-header h6{
+        color:#4D4D4D;
+        font-size:11px;
+        text-align: center;
+    }
+    .cardbdy h6{
+        color:#4D4D4D;
+        font-size:10px;
+    }
     .cardhead{
         padding:0px;
     }
     .cardbdy{
-        padding:5px;
+        padding:1px;
     }
-    .card-header h4{
-        color:rgb(250,196,23);
-        font-size:35px;
-        font-weight:900;
-    }
-    .card-header h6{
-        color:#000;
-        font-size:13px;
-        text-align: center;
-    }
-    .cardbdy h6{
-        color:#000;
-        font-size:14px;
+    .cardbdy span{
+        color: #1DBF73;
     }
     .planbtn{
-        background-color: #000;
-        color:#fff;
+        background-color: #000000;
+        color: #EFEFEF;
         width:60px;
+        text-align: center;
         font-size:10px;
-        margin-left:-8px;
     }
     .planbtn:hover{
-       color:#fff;
+        color: #EFEFEF;
     }
-    .inetbg h6{
-        font-size:11px;
-        font-weight: bold;
+    .bgcolor h6{
+        font-size:8px;
+         font-style:normal;
+        font-family: 'Montserrat', sans-serif;
+        font-weight:600;
+        color:#4D4D4D;
     }
-    .inetbg p{
-        font-size:10px;
-        margin-top:-5px;
-        font-weight: 500;
+    .bgcolor p{
+        font-size:8px;
+        font-style:normal;
+        font-family: 'Montserrat', sans-serif;
+        color:#888888;
         
     }
-  }
+    .dropbox p{
+        margin-left:10px;
+        left:0;
+        font-size:16px;
+    }
+    .dropbox img{
+      margin-left:130px;
+       left:0;
+    }
+    .dropdown-content img{
+        margin:0;
+    }
+    .dropdown-content{
+        margin-right:-30px;
+
+    }
+}
+
+
+
+  
 
 

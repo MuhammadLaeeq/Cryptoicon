@@ -3,12 +3,43 @@
 .serbox{
     width:500px !important;
     margin:0 15px;
+    background-color: #F8F8F9 !important;
     margin-bottom:-15px;
     border-radius:50px;
-    border:4px solid rgb(251,195,24);
+    border:3px solid #FAC417;
     height:49px;
 }
+.dropicon .fa-ellipsis-v{
+    color:#2A2A2A;
 
+}
+.text-danger{
+    color:#CC0505 !important;
+    font-weight: 600 !important;
+    font-style: normal !important;
+}
+.text-success{
+    color:#289461 !important;
+    font-weight: 500 !important;
+    font-style: normal;
+
+
+}
+.text-dark{
+    color: #4D4D4D !important;
+    font-weight: 500 !important;
+    font-style: normal;
+
+}
+.btndanger{
+    background-color: #CC0505;
+    color:#fff;
+}
+
+.btnsucces{
+    background-color: #1DBF73;
+    color:#fff;
+}
 #droicon1{
     position: absolute; 
     left: 450px; 
@@ -32,11 +63,17 @@
 /*Userinfo Css*/
 
 .userinfo{
-    background-color:rgba(218, 218, 218, 0.267);
+    background-color:#F8F8F9;
     padding:5px;
+    box-shadow: 0px 0px 5px #00000029;
+    border-radius: 5px;
 }
 .userinfo:hover{
-    background-color: rgb(251,195,24);
+    background-color:#FAC417;
+    color:#000;
+    font-weight:300;
+    font-style: normal;
+    
 }
 .userinfo img{
     border-radius: 10px;
@@ -44,21 +81,21 @@
 }
 .userinfo h6{
     margin-top:10px;
-    font-weight: bold;
-
-    
+    font-weight:500;
+    font-style: normal;    
 }
+
 .userinfo p{
     margin-top:-10px;
     font-size:14px;
-    color:rgb(151, 151, 151);
+    font-weight:normal;
+    color:#9E9E9E;
 }
-    
-
 .card{
-    background-color:rgb(230, 230, 230);
-    border-radius:10px;
-    border:2px solid rgba(0, 0, 0, 0.89);
+    background-color:#EFEFEF;
+    box-shadow: 0px 0px 5px #0000001A;
+border: 1px solid #707070;
+border-radius: 6px;
 }
 .cardbdy h3{
     font-weight: bold;
@@ -70,6 +107,7 @@
 .bgcolor2{
     background-color: rgb(255, 255, 255);
     padding:10px;
+    border-radius: 5px;
 }
 
 /*Table Css*/
@@ -80,11 +118,25 @@
 }
 .tbcolor{
     background-color: #fff;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px #00000029;
+    border-radius: 5px;
 }
 .tbcolor span{
-    color:rgb(69,186,135);
+    color:#1DBF73;
     font-weight:500;
 
+}
+.tbcolor th{
+    color: #000000;
+}
+.tbcolor td{
+    color:#888888;
+}
+thead th{
+    color:#4D4D4D;
+    font-weight:600;
+    font-style:normal;
 }
  hr{
     
@@ -118,7 +170,7 @@
 }
 .logo{
     width:200px;
-    margin-left:90px;
+    margin-left:-15px;
 }
 
 .arrowlink{
@@ -177,269 +229,311 @@
     font-weight: bold;
     color:#000;
     font-style:normal;
+    font-size:38px;
     font-weight:800;
     font-family: 'Montserrat', sans-serif;
 }
   
-  @media (min-width: 320px) and (max-width: 480px) {
-  .usercon{
-      margin:0 10px;
-  }
-    .topbar{
-       display:none;
-   }
-   .logo{
-       width:60px;
-   }
-   
-   .box h2{
-       font-size:20px;
-   } 
-   .arrowlink{
-       color:#000;
-       font-size:20px;
-       position: absolute;
-       top:22px;
-       left:18px;
-   }
-   
-hr{
-   width:200px;
-   margin:10px auto;    
-   border:0.5px solid rgb(177, 177, 177);
-}
-.depositbtn{
-   position: absolute;
-   right:30px;
-   bottom:450px;
-   
-}
-.edituser img{
-   border-radius: 10px;
-   width:80px;
-   
-   }
-   .edituser h6{
-       margin-top:10px;
-       font-size:10px;
-   }
-   .edituser p{
-       font-size:12px;
-       margin-top:-10px;
-       color:rgb(126, 125, 125);
-   }
-   .edittxt{
-    margin:0 100px;
-    text-align:center;
-    font-size:20px;        
-   }
-   .card{
-     margin:5px auto; 
-   }
-   .cardbdy h3{
-    font-weight: bold;
-    color:#4D4D4D;
-    font-size:20px;
-    font-style:normal;
-    font-weight:800;
-    font-family: 'Montserrat', sans-serif;
-   }
-   
-   .serbox{
-    width:10px !important;
-    margin:10px -11px !important;
-    border-radius:50px;
-    border:4px solid rgb(251,195,24);
-    height:5px;
-}
-
-#droicon1{
-    margin-left: 180px; 
-}   
-
-#droicon2{
-    margin-left: 180px; 
-}    
-
-#droicon3{
-    margin-left: 180px; 
-}
-#droicon4{
-    margin-left: 180px; 
-}
-}
-
-@media (min-width: 481px) and (max-width: 767px)
-{
-.edittxt{
-    text-align: center;
-}
-.navbar-text{
-    margin:0 100px;
-}
-.serbox{
-    width:300px !important;
-    margin:0 4px !important;
-}
-#droicon1{
-    margin:0 20px !important;
-}   
-
-#droicon2{
-    margin-left: 20px !important; 
-}    
-
-#droicon3{
-    margin-left: 20px !important; 
-}
-#droicon4{
-    margin-left: 20px !important; 
-
-}
-}
-@media screen and (max-width:768px){
-  .logo{
-      width:180px;
-      margin:0;
-  }
-  .price a{
-    text-decoration: none;
-    font-size:14px;
-}
-
-hr{
-    width:150px;
-    margin:10px auto;
-}
-#droicon1{
-    margin-left:-110px;
-}
-#droicon2{
-    margin-left:-110px;
-}
-#droicon3{
-    margin-left:-110px;
-}
-#droicon4{
-    margin-left:-110px;
-}
-.serbox{
-    width:200px !important;
-    margin:0 20px !important;
-    border-radius:50px;
-
-    border:4px solid rgb(251,195,24);
-    height:40px;
-}
-.tbcolor{
-    font-size: 14px;
-}
-th{
-    font-size:13px;
-}
-}
-
-@media screen and (max-width:767px){
-
-    .serbox{
-        width:600px !important;
-        margin:0 15px;
-        margin-bottom:-15px;
-        margin-top:5px;
-        border-radius:50px;
-        border:4px solid rgb(251,195,24);
-        height:55px;
-    }
-    
-    #droicon1{
-        position: absolute; 
-        left: 390px; 
-        bottom:300px;
-    }
-    #droicon2{
-        position: absolute; 
-        left: 390px;
-        bottom:220px;
-    }
-    #droicon3{
-        position: absolute; 
-        left: 390px;
-        bottom:140px;
-    }
-    #droicon4{
-        position: absolute;
-        left: 390px;
-        bottom:50px;
-    }
-    .card{
-        margin:5px auto;
-    }
-    
-    .topbar{
-        display:none;
-
-    }
-    .logo{
-        margin:0 auto;
-    }    
-form{
-    width:400px;
+.input-group{
+    width:300px;
     margin:0 auto;
 }
+input,textarea{
+    background-color: #EFEFEF !important;
+}
+.navbar-text{
+    color:#282828;
+    font-weight:600;
+    font-style:normal;
+}
 
+.editicon{
+    position:absolute; 
+    top:130px;
+    right:30px;
+    color:#000;
+}
+.editicon:hover{
+    color:#000;
+    text-decoration: none;
+}
+.depositbtn{
+    position: absolute;
+    right:30px;
+    bottom:320px;
+    color:#000000;
+    font-weight: 600;
+    font-style:normal;
+    
+}
+.arrowlink{
+    color:#000;
+    font-size:30px;
+    position: absolute;
+    top:16px;
+    left:70px;
+}
+.arrowlink:hover{
+    color:#000;
+    font-size:30px;
+    position: absolute;
+    top:16px;
+    left:70px;
+}
+#div2{
+    display: none;
+}
+.modal-body h4{
+    color:#4D4D4D;
+    font-weight: 700;
+    font-style:normal; 
 
+}
+.modal-body h3{
+    color:#4D4D4D;
+    font-weight: 700;
+    font-style:normal; 
+    font-family: 'Montserrat', sans-serif;
+}
+.modal-title{
+    font-size:28px; 
+    color:#4D4D4D;
+    font-weight:900;
+    
+ }
+ .eintinfo{
+    font-size:28px;
+    color:#4D4D4D;
+    font-weight:900;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.edituser h6{
+    margin-top:10px;
+    color:#000000;
+}
+.edituser p{
+    margin-top:-10px;
+    color:#9E9E9E;
+}
+.fa-check{
+    color:#fff;
+    background-color: #1DBF73;
+    padding:5px;
+    font-size:12px;
+    border-radius:20px;
+}
+.text-primary{
+    color:#0096D8;
+    font-weight:600;
+    font-style:normal;
 }
 
 
-@media screen and (max-width:1024px){
-    .logo{
-        width:180px;
-        margin:0;
+
+
+
+/*-----------------------Responsive Code-----------------------*/
+
+@media(min-width:320px) and (max-width:480px)
+{
+    .topbar{
+        display:none;
     }
-    .price a{
-      text-decoration: none;
-      font-size:14px;
-  }
-  hr{
-    width:150px;
-    margin:10px auto;
-  }
-  #droicon1{
-      position: absolute; 
-      left: 360px; 
-      bottom:300px;
-  }
-  #droicon2{
-      position: absolute; 
-      left: 360px;
-      bottom:220px;
-  }
-  #droicon3{
-      position: absolute; 
-      left: 360px;
-      bottom:140px;
-  }
-  #droicon4{
-      position: absolute;
-      left: 360px;
-      bottom:50px;
-  }
-  .serbox{
-      width:300px !important;
-      margin:0 10px;
-      margin-bottom:-15px;
-      margin-top:2px;
-      border-radius:50px;
-      border:4px solid rgb(251,195,24);
-      height:50px;
-  }
-  .tbcolor{
-      font-size: 14px;
-  }
-  th{
-      font-size:13px;
-  }
-  .tbcolor{
-      font-size:18px;
-  }
-  }
+    
+#droicon1{
+    margin-left: -222px; 
+}   
+
+#droicon2{
+    margin-left: -222px;
+}    
+
+#droicon3{
+    margin-left: -222px;
+}
+#droicon4{
+    margin-left: -222px;
+}
+.depositbtn{
+    margin-bottom:130px;
+    color:#000000;
+    font-weight: 600;
+    font-style:normal;
+    
+}
+.media-body h6{
+    font-size:10px;
+}
+.media-body p
+{
+    font-size:10px;
+}
+.userinfo p{
+    font-size:10px;
+}
+.fa-check{
+    color:#fff;
+    background-color: #1DBF73;
+    padding:3px;
+    font-size:8px;
+    border-radius:20px;
+}
+.logo{
+    width:100px;
+    margin-left:2px;
+}
+.card{
+    margin:5px auto;
+}
+.edittxt{
+    text-align: center;
+    font-size:20px;
+    margin-top:20px;
+}
+.navbar-text{
+    margin-left:50px;
+}
+.editicon{
+   margin-top:-15px;
+}
+.userinfo img{
+    border-radius: 10px;
+    
+}
+.cardbdy h3{
+    font-size:20px;
+}
+.arrowlink{
+    font-size:20px;
+ margin-left:-50px;
+}
+.input-group{
+    width:200px;
+}
+}
+
+@media(min-width:360px){
+    #droicon1{
+        margin-right: -200px; 
+    }   
+    
+    #droicon2{
+        margin-right: -200px;
+    }    
+    
+    #droicon3{
+        margin-right: -200px;
+    }
+    #droicon4{
+        margin-right: -200px;
+    }
+    .media-body h6{
+        font-size:15px;
+    }
+    .media-body p
+    {
+        font-size:15px;
+    }
+    .depositbtn{
+        margin-bottom:-20px;
+        color:#000000;
+        font-weight: 600;
+        font-style:normal;    
+    }
+    .editicon{
+        margin-top:-10px;
+     }
+     .cardbdy h3{
+         font-size:20px;
+     }
+     .input-group{
+        width:200px;
+    }
+}
+
+
+@media(min-width:481px) and (max-width:767px){
+    .topbar{
+        display: none;
+    }
+    .input-group{
+        width:200px;
+    }
+    #droicon1{
+        margin-left: -80px; 
+    }   
+    
+    #droicon2{
+        margin-left: -80px;
+    }    
+    
+    #droicon3{
+        margin-left: -80px;
+    }
+    #droicon4{
+        margin-left: -80px;
+    }
+    .logo{
+        margin-left:10px;
+    }
+    .card{
+        margin-top:10px;
+    }
+    .edittxt{
+        text-align: center;
+        margin-top:10px;
+        font-size:23px;
+    }
+    .navbar-text{
+        margin-left:110px;
+    }
+    .cardbdy h3{
+        font-size:30px;
+    }
+    .arrowlink{
+        font-size:30px;
+       margin-left:-30px;
+    }
+}
+
+@media(min-width:768px) and (max-width:1024px)
+{
+    .logo{
+        margin-left:20px;
+    }
+    .edittxt{
+        text-align: center;
+        font-size:33px;
+    }
+    .navbar-text{
+        margin-left:230px;
+    }
+    #droicon1{
+        margin-left: -190px; 
+    }   
+    
+    #droicon2{
+        margin-left: -190px;
+    }    
+    
+    #droicon3{
+        margin-left: -190px;
+    }
+    #droicon4{
+        margin-left: -190px;
+    }
+    .depositbtn{
+        margin-bottom:-60px;
+        color:#000000;
+        font-weight: 600;
+        font-style:normal;    
+    }
+    .tr-spacer{
+        height:5px;
+    }
+    .arrowlink{
+        margin-left:-30px;
+    }
+    
+}

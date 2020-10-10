@@ -26,7 +26,7 @@
         data: [{
             type:"line",
             axisYType: "secondary",
-            name: "San Fransisc",
+            name: "47.000",
             showInLegend: false,
             markerSize: 0,
             yValueFormatString: "$#,###k",
